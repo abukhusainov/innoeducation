@@ -1,0 +1,265 @@
+.play-pause2{
+    width: max-content;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    padding: 15px 45px;
+    margin: 0 0 50px 50px;
+    display: none;
+    align-items: center;
+}
+.play-pause2 p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 32px;
+color: #000000;
+}
+.play_pause2{
+    margin: 0 20px 0;
+}
+.play-pause2{
+display: flex;
+align-items: center;
+}
+.play_pause2 i{
+    color: white;
+    font-size: 23px;
+}
+.play_pause2 {
+    padding: 30px 31px;
+    background: #1877F2;
+    border-radius: 50%;
+    border: none;
+}
+
+
+
+.ml-10{
+    margin-left: 10%;
+}
+.mentor{
+    background: white;
+    width: 32%;
+border-radius: 16px;
+padding: 20px;
+}
+.mentors-father{
+    padding-bottom: 38px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+.title-teachers p:nth-child(2){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #000000;
+opacity: 0.4;
+width: 25%;
+}
+.name{
+    margin-left: 15px;
+}
+.name p:nth-child(1){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+width: 60%;
+margin-bottom: 5px;
+}
+.name p:nth-child(2){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+opacity: 0.4;
+}
+.center-name i{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.384);
+}
+.left-circle-img{
+    width: 40%;
+}
+.left-circle-img img{
+    width: 100%;
+}
+.center-name{
+    width: 60%;
+}
+
+.width-80{
+    width: 80%;
+}
+.acca-exam{
+    border-left: 1px solid #000;
+    padding-left: 15px;
+    margin-bottom: 60px;
+}
+.acca-exam p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 200%;
+color: #000000;
+}
+.degree{
+    margin-bottom: 60px;
+}
+.degree p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #000000;
+
+}
+.degree p:nth-child(1){
+    margin-bottom: 20px;
+}
+
+.degree .science p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 200%;
+color: #000000;
+margin: 0;
+}
+.acca-exam i{
+    margin-right: 12px;
+}
+.title-teachers{
+    margin-top: 0;
+}
+.title-teachers:nth-child(1){
+    margin-top: 120px;
+}
+.mb{
+    margin-bottom: 150px;
+}
+
+
+
+@media (max-width:1200px){
+    .ml-10{
+        margin-left: 0;
+    }
+    .mentor{
+        width: 41%;
+        margin: 10px auto;
+    }
+}
+@media (max-width:992px){
+    .mentor{
+        width: 52%;
+    } 
+    .title-teachers p:nth-child(2){
+    width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .play-pause2{
+        padding: 10px 20px;
+        margin: 0 0 25px 25px;
+    }
+    .play-pause2 p{
+    font-size: 20px;
+    line-height: 24px;
+    }
+    .play_pause2 {
+        padding: 20px 21px;
+    }
+    .name p:nth-child(1){
+        font-size: 14px;
+        line-height: 18px;
+    width: 100%;
+    }
+    .name p:nth-child(2){
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media (max-width:575px){
+    .mentor{
+        width: 70%;
+        padding: 10px;
+    } 
+    .acca-exam p{
+    font-size: 16px;
+    line-height: 18px;
+    }.degree p:nth-child(1){
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+    .degree .science p{
+    font-size: 16px;
+    line-height: 20px;
+    }
+    
+    .width-80{
+        width: 90%;
+    }
+    .title-teachers:nth-child(1){
+        margin-top: 50px;
+    }
+    .mb{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:480px){
+    .play_pause2 i{
+        font-size: 14px;
+    }    .width-80{
+        width: 100%;
+    }
+.title-teachers{
+    margin-bottom: 10px;
+}
+.mentors-father {
+    padding-bottom: 8px;
+}
+.degree {
+    margin-bottom: 18px;
+}
+.acca-exam{
+    margin-bottom: 18px;
+}
+.title-teachers:nth-child(1){
+    margin-top: 20px;
+}
+.mb{
+    margin-bottom: 50px;
+}
+}
+@media (max-width:375px){
+    .play-pause2{
+        padding: 6px 12px;
+        margin: 0 0 15px 15px;
+    }
+    .play-pause2 p{
+    font-size: 16px;
+    line-height: 20px;
+    
+    }
+    .play_pause2{
+        margin: 0 10px 0;
+        padding: 10px 11px;
+    }
+    .mentor{
+        width: 90%;
+        padding: 10px;
+    } 
+    .about-worker {
+        margin-top: 16px;
+    }
+}

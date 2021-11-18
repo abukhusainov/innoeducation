@@ -1,0 +1,379 @@
+.current{
+    border-bottom: 2px solid #000;
+    font-weight: 600;
+font-size: 18px;
+color: #000000;
+}
+.buttons a:nth-child(1){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 131%;
+text-align: center;
+color: #000000;
+padding: 10px 14px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 4px;
+margin-left: 30px;
+}
+.buttons a:nth-child(2){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 131%;
+color: #FFFFFF;
+padding: 10px 14px;
+background: #3A66FF;
+border-radius: 4px;
+margin-left: 30px;
+}
+.title{
+    margin-top: 148px;
+    margin-bottom: 65px;
+}
+.left2-course, .center2-course{
+    background: white;
+    width: 32%;
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+}
+.img-reference img{
+    transition: .5s;
+}
+.inner:hover .img-reference img{
+    transform: scale(1.1);
+}
+.img-reference{
+    margin-top: 106px;
+}
+
+.reference p:nth-child(1){
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 100%;
+color: #000000;
+}
+.reference p:nth-child(2){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 31px;
+color: #000000;
+margin-top: 30px;
+}
+.right2-course{
+    width: 32%;
+}
+.for-two-p{
+    width: max-content;
+}
+.for-two-p p:nth-child(2){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #15EC5E;
+}
+.img-top{
+    margin-top: auto;
+    margin-top: 98px;
+}
+.top2-course, .bottom2-course{
+    background: white;
+    padding-top: 40px;
+}
+.top2-course{
+    margin-bottom: 20px;
+}
+.inner2{
+width: 90%;
+margin: auto;
+}
+.inner2:hover .img-top img{
+    transform: scale(1.1);
+}
+.img-top img{
+    width: 100%;
+    transition: .5s;
+}
+.not-aviable p:nth-child(2){
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.title-teachers{
+    margin-top: 120px;
+}
+.title-teachers p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140.2%;
+    color: #2B2A29;
+}
+.teacher-info{
+    margin-left: 30px;
+    width: 50%;
+}
+.teacher-info p:nth-child(1){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 116.8%;
+color: #000000;
+margin-bottom: 5px;
+}
+.teacher-info p:nth-child(2){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 20px;
+}
+
+.teacher-info a{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+}
+.teacher{
+    width: 45%;
+    margin: 50px 0;
+}
+.teacher-img img{
+    transition: .8s;
+}
+.teacher:hover .teacher-img img{
+    transform: scale(1.05);
+    filter: grayscale(0.8);
+    box-shadow: 1px 1px 5px black;
+}
+.teacher:nth-child(even){
+    margin-left: 80px;
+}
+.teacher a{
+    width: 30%;
+}
+.teacher-img img{
+width: 100%;
+}
+.teachers-flexer{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+.section-for-about{
+    width: 90%;
+}
+.section-for-about p:nth-child(1){
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #262626;
+    margin-bottom: 10px;
+}
+.section-for-about p:nth-child(2){
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+color: #262626;
+}
+.courses-link a{
+    font-size: 50px;
+    color: #262626;
+}
+.courses-link{
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    margin-top: 35px;
+}
+.courses{
+    margin-bottom: 148px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .reference p:nth-child(1){
+        font-size: 30px;
+        line-height: 35px;
+        }
+        .reference p:nth-child(2){
+            font-size: 24px;
+            line-height: 30px;
+        }
+}
+@media (max-width:992px){
+    .left2-course, .center2-course, .right2-course{
+        width: 45%;
+        margin: 10px auto;
+    }
+    .teacher{
+        width: 60%;
+        margin: 40px 0;
+    }
+    .teacher:nth-child(even){
+        margin-left: 0px;
+    }
+}
+@media (max-width:768px){
+    .left2-course, .center2-course, .right2-course{
+        width: 70%;
+        margin: 10px auto;
+    }
+    .teacher{
+        width: 90%;
+        margin: 40px 0;
+    }
+    .title-teachers{
+        margin-top: 80px;
+    }
+}
+@media (max-width:575px){
+    .teacher-info p:nth-child(1){
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    }
+    .teacher-info p:nth-child(2){
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    }
+    
+    .teacher-info a{
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    }
+    .teacher-info{
+        width: 100%;
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teacher a{
+        width: 60%;
+        margin: auto;
+    }
+    .teacher-img img{
+        width: 100%;
+        margin: auto;
+    }
+    .teacher{
+        margin: 20px auto!important;
+    }
+    .courses{
+        margin-bottom: 70px;
+    }
+    .title-teachers p{
+        font-size: 35px;
+    }
+    .title-teachers{
+        margin-top: 40px;
+    }
+
+}
+@media (max-width:480px){
+    .left2-course, .center2-course, .right2-course{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .img-reference img{
+        width: 100%;
+    }
+    .teacher a{
+        width: 80%;
+    }
+    .teachers-flexer{
+        margin-bottom: 50px;
+    }
+    .title-teachers{
+        margin-top: 10px;
+    }
+    .logo{
+        width: 115px;
+    }
+    .logo-footer{
+        width: 100%;
+    }
+    .section-for-about p:nth-child(1){
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .section-for-about p:nth-child(2){
+    font-size: 16px;
+    line-height: 20px;
+    }
+    .title {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .buttons a:nth-child(2), .buttons a:nth-child(1) {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 6px 6px;
+    }    
+    .img-reference {
+        margin-top: 20px;
+    }
+    .reference p:nth-child(2) {
+        margin-top: 5px;
+    }
+    .courses-link {
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+    .about-worker {
+        margin-bottom: 0px!important;
+    }
+}
+@media (max-width:405px){
+    .buttons a:nth-child(1){
+    margin-left:auto;
+    margin-bottom: 10px;
+    }
+    .buttons a:nth-child(2){
+    margin-left: 10px;
+    }
+}
+@media (max-width:290px){
+    .buttons a:nth-child(2){
+        margin-left: auto;
+        } 
+}

@@ -1,0 +1,140 @@
+nav{
+    padding-top: 21px;
+}
+.logo{
+    width: 150px;
+}
+.logo a img{
+    width: 100%;
+}
+.dark ul li a{
+    color: rgb(0, 0, 0); 
+  }
+  body{
+    background: #E5E5E5;
+  }
+.dark{
+    color: black!important;
+}
+.links ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(0, 0, 0);
+    height: 1px;
+    transition: .3s;
+}
+.dark p{
+    color: black;
+}
+.profile p{
+    color: black;
+}
+.profile p span{
+    color: black;
+}
+.lang p{
+    color: black;
+}
+.first-line, .second-line{
+    background: #000;
+}
+.courses-nav{
+    margin-top: 120px;
+}
+.courses-nav h3{
+    width: 40%;
+}
+.about-acca-p{
+    width: 40%;
+}
+.about-acca-p p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.img-contract{
+    width: 40%;
+    margin-top: 60px;
+    margin-bottom: 185px;
+}
+.img-contract img{
+    width: 100%;
+}
+@media (max-width:1200px){
+    .dark ul li a{
+        color: rgb(255, 255, 255); 
+      }
+}
+@media (max-width:992px) {
+    .about-acca-p{
+        width: 60%;
+    }
+    .img-contract{
+        width: 60%;
+    }
+}
+@media (max-width:768px) {
+    .about-acca-p{
+        width: 70%;
+    }
+    .img-contract{
+        width: 70%;
+    }
+}
+@media (max-width:575px) {
+    .about-acca-p{
+        width: 90%;
+        margin: auto;
+    }
+    .img-contract{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 45px;
+        margin-top: 20px;
+    }
+    .courses-nav h3{
+        width: 100%;
+    }
+    .click-here-button{
+        margin-top: 20px;
+    }
+    .courses-nav{
+        margin-bottom: 20px;
+    }
+    .logo-footer{
+        width: 100%;
+    }
+}
+@media (max-width:480px){
+    .logo{
+        width: 115px;
+    }
+    .logo-footer{
+        width: 100%;
+    }
+    .courses-nav {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .click-here-button {
+        margin-top: 0px;
+    }
+}
+@media (max-width:357px){
+    .profile p{
+        color: rgb(255, 255, 255);
+    }
+    .profile p span{
+        color: rgb(255, 255, 255);
+    }
+}
